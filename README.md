@@ -5,7 +5,8 @@ This simple tool is a CLI for [Domoticz](http://www.domoticz.com/).
 
 You can power on/off light switches, list sensor values and much more. Domoticz-cli can also produce Graphite compatible output or report directly to [Librato](http://www.librato.com|Librato).
 
-```usage: domoticz-cli.py [-h] [--host HOST] [--port PORT] [--debug]
+```
+usage: domoticz-cli.py [-h] [--host HOST] [--port PORT] [--debug]
                        [--list-switches] [--list-sensors]
                        [--list-sensors-graphite] [--list-sensors-librato]
                        [--report-prefix NAME] [--list-scenes] [--list-groups]
