@@ -38,3 +38,14 @@ optional arguments:
                         Librato token. If also Librato user is set, report
                         sensors to Librato.
 ```
+
+Installation
+============
+
+```
+pip install requests
+pip install argparse
+# optional:
+pip install librato
+```
+
