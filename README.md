@@ -40,6 +40,21 @@ optional arguments:
                         sensors to Librato.
 ```
 
+Examples
+========
+
+```
+$ domoticz-cli.py  --list-sensors
+Utebelysning entre             4.8 Watt                  2015-07-12 22:47:15
+Utelampa vedbod                7.9 Watt                  2015-07-12 22:46:28
+Kontor                         21.1 C, 59 %              2015-07-12 22:43:42
+```
+
+```
+$ domoticz-cli.py  --librato-user xx --librato-token yy --list-sensors-librato --report-prefix villan.domoticz
+Reported 33 values to Librato.
+```
+
 Installation
 ============
 
